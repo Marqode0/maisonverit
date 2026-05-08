@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maison Vérité | Fine Dining</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,700&family=DM+Sans:wght@200;300;400;500&family=Cormorant:ital,wght@0,300;1,300;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="pre-inner">
+      <div class="pre-logo">MAISON VÉRITÉ</div>
+      <div class="pre-progress">
+        <div class="pre-fill" id="preFill"></div>
+      </div>
+      <span class="pre-tagline">Preparing your experience</span>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#" class="nav-wordmark">MAISON<br/>VÉRITÉ</a>
+    <ul class="nav-center-links">
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Find Us</a></li>
+    </ul>
+    <a href="#reserve" class="nav-reserve">Reserve a Table</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mob-nav" id="mobNav">
+    <a href="#story" class="mob-nav-link">Our Story</a>
+    <a href="#menu" class="mob-nav-link">Menu</a>
+    <a href="#experience" class="mob-nav-link">Experience</a>
+    <a href="#contact" class="mob-nav-link">Find Us</a>
+    <a href="#reserve" class="mob-nav-link mob-reserve">Reserve a Table</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-ambient"></div>
+    <div class="hero-left">
+      <p class="hero-eyebrow">Est. 2019 · Lagos, Nigeria</p>
+      <h1 class="hero-heading">
+        <em>Where every</em>
+        <strong>plate</strong>
+        <em>tells a</em>
+        <strong>story.</strong>
+      </h1>
+      <p class="hero-body">A sanctuary of slow dining, honest ingredients, and the kind of silence that lets flavour speak first.</p>
+      <div class="hero-actions">
+        <a href="#reserve" class="cta-primary">Book Your Evening</a>
+        <a href="#menu" class="cta-text">Explore the Menu <span>→</span></a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-frame">
+        <div class="hero-img-inner">
+          <div class="hero-img-placeholder">
+            <div class="plate-ring ring-1"></div>
+            <div class="plate-ring ring-2"></div>
+            <div class="plate-ring ring-3"></div>
+            <div class="plate-dot"></div>
+          </div>
+        </div>
+        <div class="hero-img-caption">Signature — Aged Duck Confit</div>
+      </div>
+      <div class="hero-float-tag">
+        <span class="float-num">4.9</span>
+        <span class="float-label">Dining Score</span>
+      </div>
+    </div>
+    <div class="hero-scroll-cue">
+      <div class="scroll-cue-line"></div>
+    </div>
+  </section>
+
+  <!-- AWARDS STRIP -->
+  <div class="strip">
+    <div class="strip-track">
+      <span>Best Fine Dining 2024</span><span class="strip-dot">◆</span>
+      <span>Michelin Recommended</span><span class="strip-dot">◆</span>
+      <span>Top 10 Lagos Restaurants</span><span class="strip-dot">◆</span>
+      <span>Chef's Choice Award</span><span class="strip-dot">◆</span>
+      <span>Best Wine List 2025</span><span class="strip-dot">◆</span>
+      <span>Best Fine Dining 2024</span><span class="strip-dot">◆</span>
+      <span>Michelin Recommended</span><span class="strip-dot">◆</span>
+      <span>Top 10 Lagos Restaurants</span><span class="strip-dot">◆</span>
+      <span>Chef's Choice Award</span><span class="strip-dot">◆</span>
+      <span>Best Wine List 2025</span><span class="strip-dot">◆</span>
+    </div>
+  </div>
+
+  <!-- STORY -->
+  <section id="story" class="story">
+    <div class="story-left">
+      <div class="story-img-stack">
+        <div class="stack-img stack-back">
+          <div class="stack-placeholder back-ph"></div>
+        </div>
+        <div class="stack-img stack-front">
+          <div class="stack-placeholder front-ph"></div>
+        </div>
+        <div class="story-year-badge">2019</div>
+      </div>
+    </div>
+    <div class="story-right">
+      <span class="label">Our Philosophy</span>
+      <h2 class="story-heading">
+        Food is not<br/>
+        <em>decoration.</em>
+      </h2>
+      <p class="story-text">Maison Vérité was born from a refusal to perform. No foam. No theatre. No dishes designed for photographs. Just ingredients treated with precision, plated with restraint, and served by people who believe a good meal is still the most intimate thing two strangers can share.</p>
+      <p class="story-text">Our kitchen sources from a rotating circle of seven Nigerian farms. Our menu changes with the season, never the trend.</p>
+      <div class="story-stats">
+        <div class="s-stat">
+          <span class="s-num">7</span>
+          <span class="s-desc">Partner Farms</span>
+        </div>
+        <div class="s-stat">
+          <span class="s-num">3</span>
+          <span class="s-desc">Seasonal Menus / Year</span>
+        </div>
+        <div class="s-stat">
+          <span class="s-num">22</span>
+          <span class="s-desc">Seats Only</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="menu-section">
+    <div class="menu-header">
+      <span class="label">Current Menu — Autumn 2026</span>
+      <h2 class="menu-title">Tonight's<br/><em>Selection</em></h2>
+      <p class="menu-sub">Hover a dish to see its story. All prices include service.</p>
+    </div>
+    <div class="menu-tabs">
+      <button class="tab active" data-tab="starters">Starters</button>
+      <button class="tab" data-tab="mains">Mains</button>
+      <button class="tab" data-tab="desserts">Desserts</button>
+      <button class="tab" data-tab="wine">Wine Pairings</button>
+    </div>
+    <div class="menu-body">
+
+      <div class="menu-panel active" id="tab-starters">
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Smoked Catfish Velouté</h3>
+            <p class="dish-sub">with palm oil emulsion & fried capers</p>
+          </div>
+          <div class="dish-price">₦28,000</div>
+          <div class="dish-hover-card">Silky smoked catfish from Lekki lagoon, slow-reduced into a velvet broth. Palm oil adds depth, not grease. Capers cut through.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Garden Egg Tartare</h3>
+            <p class="dish-sub">charred, chilled, shallot vinaigrette</p>
+          </div>
+          <div class="dish-price">₦22,000</div>
+          <div class="dish-hover-card">Our answer to beef tartare. Garden egg charred at 300°C, scraped and chilled. The shallot vinaigrette does the rest.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Suya-Cured Salmon</h3>
+            <p class="dish-sub">48-hour cure, cucumber water, dill oil</p>
+          </div>
+          <div class="dish-price">₦35,000</div>
+          <div class="dish-hover-card">Atlantic salmon cured for 48 hours in suya spice and demerara. Bright, smoky, and unexpectedly restrained.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Plantain Mousse</h3>
+            <p class="dish-sub">whipped, salted caramel, cacao dust</p>
+          </div>
+          <div class="dish-price">₦18,000</div>
+          <div class="dish-hover-card">Overripe plantain aerated into a mousse. Salted caramel from scratch. Served cold. A quiet opener.</div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="tab-mains">
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Aged Duck Confit</h3>
+            <p class="dish-sub">black-eyed bean purée, bitter leaf jus</p>
+          </div>
+          <div class="dish-price">₦68,000</div>
+          <div class="dish-hover-card">Duck aged for 72 hours in our dry room. Confited low and slow. The bitter leaf jus is made fresh each service — never stored.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Dry-Aged Wagyu Ribeye</h3>
+            <p class="dish-sub">28-day, oha leaf butter, bone marrow</p>
+          </div>
+          <div class="dish-price">₦145,000</div>
+          <div class="dish-hover-card">The only steak on the menu. It does not need a description. But the oha leaf butter is reason enough.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Ofada Rice Risotto</h3>
+            <p class="dish-sub">parmesan, ayamase emulsion, crispy shallots</p>
+          </div>
+          <div class="dish-price">₦52,000</div>
+          <div class="dish-hover-card">Ofada rice cooked risotto-style, finished with parmesan and a rich ayamase emulsion. The shallots stay crispy. Always.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Sea Bass en Croûte</h3>
+            <p class="dish-sub">egusi crust, beurre blanc, micro herbs</p>
+          </div>
+          <div class="dish-price">₦78,000</div>
+          <div class="dish-hover-card">Whole sea bass wrapped in an egusi and herb crust, baked to order. The beurre blanc is classic. The crust is not.</div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="tab-desserts">
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Chin Chin Panna Cotta</h3>
+            <p class="dish-sub">vanilla, honeycomb, mango coulis</p>
+          </div>
+          <div class="dish-price">₦24,000</div>
+          <div class="dish-hover-card">Set cream, barely. Chin chin crumble on top for texture. Mango coulis poured tableside.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Dark Chocolate Ganache</h3>
+            <p class="dish-sub">85% Obudu cacao, palm sugar ice cream</p>
+          </div>
+          <div class="dish-price">₦28,000</div>
+          <div class="dish-hover-card">Single-origin Nigerian cacao ganache. Dense, not sweet. The palm sugar ice cream brings the balance.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Zobo Sorbet</h3>
+            <p class="dish-sub">hibiscus, lime zest, candied ginger</p>
+          </div>
+          <div class="dish-price">₦16,000</div>
+          <div class="dish-hover-card">Palate cleanser or dessert — your call. Tart, floral, cold. The candied ginger lingers.</div>
+        </div>
+      </div>
+
+      <div class="menu-panel" id="tab-wine">
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Chenin Blanc, Mullineux</h3>
+            <p class="dish-sub">Swartland, South Africa · 2022</p>
+          </div>
+          <div class="dish-price">₦45,000</div>
+          <div class="dish-hover-card">Pairs with the Suya-Cured Salmon and Sea Bass. Mineral, stone fruit, long finish.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Cabernet Franc, Breton</h3>
+            <p class="dish-sub">Loire Valley, France · 2020</p>
+          </div>
+          <div class="dish-price">₦58,000</div>
+          <div class="dish-hover-card">Ideal with the Duck Confit. Cool-climate franc — pencil shavings, cassis, lifted acidity.</div>
+        </div>
+        <div class="dish-row">
+          <div class="dish-text">
+            <h3>Sauternes, Château Guiraud</h3>
+            <p class="dish-sub">Bordeaux, France · 2019</p>
+          </div>
+          <div class="dish-price">₦65,000</div>
+          <div class="dish-hover-card">Dessert pairing. Lush but not cloying. Apricot, saffron, honey — the Ganache needs it.</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="menu-footer-note">
+      Dietary requirements accommodated. Please inform us at time of reservation. Menu subject to seasonal change.
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / GALLERY -->
+  <section id="experience" class="experience">
+    <div class="exp-header">
+      <span class="label">The Atmosphere</span>
+      <h2 class="exp-title">Step inside<br/><em>before you arrive.</em></h2>
+    </div>
+    <div class="gallery-scroll-wrap">
+      <div class="gallery-track" id="galleryTrack">
+        <div class="gallery-item g-tall">
+          <div class="gallery-ph ph-1"></div>
+          <span class="gallery-label">The Dining Room</span>
+        </div>
+        <div class="gallery-item g-short">
+          <div class="gallery-ph ph-2"></div>
+          <span class="gallery-label">Open Kitchen</span>
+        </div>
+        <div class="gallery-item g-tall">
+          <div class="gallery-ph ph-3"></div>
+          <span class="gallery-label">Wine Cellar</span>
+        </div>
+        <div class="gallery-item g-short">
+          <div class="gallery-ph ph-4"></div>
+          <span class="gallery-label">Chef's Table</span>
+        </div>
+        <div class="gallery-item g-tall">
+          <div class="gallery-ph ph-5"></div>
+          <span class="gallery-label">Private Dining</span>
+        </div>
+        <div class="gallery-item g-short">
+          <div class="gallery-ph ph-6"></div>
+          <span class="gallery-label">The Garden</span>
+        </div>
+      </div>
+      <div class="gallery-drag-hint">← Drag to explore →</div>
+    </div>
+  </section>
+
+  <!-- CHEF SECTION -->
+  <section class="chef-section">
+    <div class="chef-inner">
+      <div class="chef-img-area">
+        <div class="chef-img-ph"></div>
+      </div>
+      <div class="chef-content">
+        <span class="label">Behind the Kitchen</span>
+        <h2 class="chef-name">Chef <em>Adaeze Okonkwo</em></h2>
+        <p class="chef-bio">Trained in Lyon. Returned to Lagos by choice. Adaeze spent six years cooking in Michelin-starred kitchens before deciding that the most interesting ingredients she had ever worked with were the ones her grandmother used without a recipe.</p>
+        <p class="chef-bio">She runs a quiet kitchen. Precise. No shouting. The food shows it.</p>
+        <div class="chef-quote">
+          "I cook Nigerian food the way it deserves — with the same rigour and respect French food gets in Europe."
+        </div>
+        <div class="chef-credentials">
+          <span>École Ferrandi, Paris</span>
+          <span>·</span>
+          <span>Le Bernardin, New York</span>
+          <span>·</span>
+          <span>Maison Vérité, Lagos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVATION -->
+  <section id="reserve" class="reserve-section">
+    <div class="reserve-inner">
+      <div class="reserve-left">
+        <span class="label">Reservations</span>
+        <h2 class="reserve-heading">Join us<br/>for an evening.</h2>
+        <p class="reserve-note">We seat 22 guests per service. Bookings are essential. We hold reservations for 15 minutes.</p>
+        <div class="reserve-hours">
+          <div class="hours-row">
+            <span>Tuesday — Thursday</span>
+            <span>7:00pm — 10:30pm</span>
+          </div>
+          <div class="hours-row">
+            <span>Friday — Saturday</span>
+            <span>6:30pm — 11:00pm</span>
+          </div>
+          <div class="hours-row">
+            <span>Sunday</span>
+            <span>Lunch · 12:00pm — 3:00pm</span>
+          </div>
+          <div class="hours-row closed">
+            <span>Monday</span>
+            <span>Closed</span>
+          </div>
+        </div>
+      </div>
+      <div class="reserve-right">
+        <form class="reserve-form" id="reserveForm">
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="Adaeze" required/>
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Okonkwo" required/>
+            </div>
+          </div>
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label>Date</label>
+              <input type="date" required/>
+            </div>
+            <div class="form-group">
+              <label>Time</label>
+              <select required>
+                <option value="" disabled selected>Select</option>
+                <option>6:30 PM</option>
+                <option>7:00 PM</option>
+                <option>7:30 PM</option>
+                <option>8:00 PM</option>
+                <option>8:30 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label>Guests</label>
+              <select required>
+                <option value="" disabled selected>Number</option>
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5 — 6 Guests</option>
+                <option>7+ (Private dining)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" placeholder="+234 000 0000000" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Special Requests (optional)</label>
+            <textarea rows="3" placeholder="Dietary needs, celebrations, seating preferences..."></textarea>
+          </div>
+          <button type="submit" class="reserve-submit">Confirm Reservation</button>
+          <p class="form-confirm" id="formConfirm"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="contact-grid">
+      <div class="contact-block">
+        <span class="label">Address</span>
+        <p>14B Kofo Abayomi Street<br/>Victoria Island, Lagos<br/>Nigeria</p>
+      </div>
+      <div class="contact-block">
+        <span class="label">Contact</span>
+        <p>+234 901 234 5678<br/>hello@maisonverite.ng</p>
+      </div>
+      <div class="contact-block">
+        <span class="label">Hours</span>
+        <p>Tue–Thu: 7pm – 10:30pm<br/>Fri–Sat: 6:30pm – 11pm<br/>Sun: Lunch only</p>
+      </div>
+      <div class="contact-block">
+        <span class="label">Follow</span>
+        <div class="contact-socials">
+          <a href="#"><i class="fab fa-instagram"></i> @maisonverite</a>
+          <a href="#"><i class="fab fa-twitter"></i> @maisonverite</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-bg-word">VÉRITÉ</div>
+    <div class="footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">MAISON VÉRITÉ</div>
+          <p class="footer-brand-line">Fine Dining · Lagos, Nigeria</p>
+        </div>
+        <div class="footer-reserve-cta">
+          <p>Ready for an evening you won't forget?</p>
+          <a href="#reserve" class="cta-primary">Reserve Your Table</a>
+        </div>
+      </div>
+      <div class="footer-mid">
+        <nav class="footer-nav">
+          <a href="#story">Our Story</a>
+          <a href="#menu">Menu</a>
+          <a href="#experience">Experience</a>
+          <a href="#reserve">Reservations</a>
+          <a href="#contact">Find Us</a>
+        </nav>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Maison Vérité. All rights reserved.</span>
+        <span class="footer-credit">Crafted with intention.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
